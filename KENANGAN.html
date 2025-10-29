@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Saya - KENANGAN</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="KENANGAN.css">
+</head>
+<body>
+  <!-- Modern Hamburger Navbar -->
+  <nav class="navbar">
+    <div class="hamburger-menu">
+      <div class="hamburger-line"></div>
+      <div class="hamburger-line"></div>
+      <div class="hamburger-line"></div>
+    </div>
+  </nav>
+
+  <!-- Navigation Overlay -->
+  <div class="nav-overlay">
+    <div class="nav-links">
+      <a href="index.html" class="nav-link">
+        <i class="fas fa-home"></i> HOME
+      </a>
+      <a href="TENTANG.html" class="nav-link">
+        <i class="fas fa-user"></i> TENTANG
+      </a>
+      <a href="KENANGAN.html" class="nav-link active">
+        <i class="fas fa-images"></i> KENANGAN
+      </a>
+    </div>
+  </div>
+
+  <!-- KENANGAN PAGE CONTENT -->
+  <div class="container">
+    <header class="gallery-header">
+      <h1>KENANGAN</h1>
+      <p class="gallery-subtitle">Momen berharga yang tak terlupakan</p>
+    </header>
+    
+    <div class="gallery">
+      <div class="photo-card" data-category="friendship">
+        <div class="photo-frame">
+          <img src="k1.jpg" alt="Masa awal main kita" class="gallery-image">
+          <div class="photo-overlay">
+            <button class="zoom-btn">
+              <i class="fas fa-search-plus"></i>
+            </button>
+          </div>
+        </div>
+        <div class="photo-info">
+          <h3>Masa awal main kita</h3>
+          <p class="photo-date">2023</p>
+        </div>
+      </div>
+      
+      <div class="photo-card" data-category="event">
+        <div class="photo-frame">
+          <img src="k2.jpg" alt="Fotbar maulid pertama" class="gallery-image">
+          <div class="photo-overlay">
+            <button class="zoom-btn">
+              <i class="fas fa-search-plus"></i>
+            </button>
+          </div>
+        </div>
+        <div class="photo-info">
+          <h3>Fotbar maulid pertama</h3>
+          <p class="photo-date">2023</p>
+        </div>
+      </div>
+      
+      <div class="photo-card" data-category="friendship">
+        <div class="photo-frame">
+          <img src="k3.jpg" alt="Fotbar pertama kali" class="gallery-image">
+          <div class="photo-overlay">
+            <button class="zoom-btn">
+              <i class="fas fa-search-plus"></i>
+            </button>
+          </div>
+        </div>
+        <div class="photo-info">
+          <h3>Fotbar pertama kali</h3>
+          <p class="photo-date">2023</p>
+        </div>
+      </div>
+      
+      <div class="photo-card" data-category="special">
+        <div class="photo-frame">
+          <img src="k4.jpg" alt="Valentine pertama" class="gallery-image">
+          <div class="photo-overlay">
+            <button class="zoom-btn">
+              <i class="fas fa-search-plus"></i>
+            </button>
+          </div>
+        </div>
+        <div class="photo-info">
+          <h3>Valentine pertama</h3>
+          <p class="photo-date">Februari 2024</p>
+        </div>
+      </div>
+      
+      <div class="photo-card" data-category="studio">
+        <div class="photo-frame">
+          <img src="k5.jpg" alt="Foto studio pertama" class="gallery-image">
+          <div class="photo-overlay">
+            <button class="zoom-btn">
+              <i class="fas fa-search-plus"></i>
+            </button>
+          </div>
+        </div>
+        <div class="photo-info">
+          <h3>Foto studio pertama</h3>
+          <p class="photo-date">2024</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="audio-section">
+      <div class="audio-player">
+        <h3>Soundtrack Kenangan</h3>
+        <audio controls>
+          <source src="kenangan.mp3" type="audio/mpeg">
+          Browser Anda tidak mendukung pemutaran audio.
+        </audio>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal untuk zoom gambar -->
+  <div class="modal" id="imageModal">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      <img class="modal-image" src="" alt="">
+      <div class="modal-nav">
+        <button class="modal-prev">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="modal-next">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  <footer class="footer">
+    <div class="container-end">
+      <ul class="ul-end">
+        <li class="li-end"><p class="subtitle">©Lynzx</p></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="common.js"></script>
+  <script src="KENANGAN.js"></script>
+</body>
+</html>
