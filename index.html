@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafi Susilo - Portfolio Modern | XI RPL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="description" content="Portfolio Rafi Susilo - Web Developer & UI/UX Designer dari Cirebon. Siswa SMK RPL dengan passion dalam pengembangan web modern.">
+    <meta name="keywords" content="Rafi Susilo, Web Developer, Portfolio, RPL, SMK, HTML, CSS, JavaScript, UI/UX Design">
+    <meta name="author" content="Rafi Susilo">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Rafi Susilo - Portfolio Modern | XI RPL">
+    <meta property="og:description" content="Portfolio Rafi Susilo - Web Developer & UI/UX Designer dari Cirebon">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="edit.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <span class="logo-name">Rafi Susilo</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link" data-section="about">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link" data-section="services">Services</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Header -->
+    <header id="home">
+        <div class="header-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+            <div class="gradient-overlay"></div>
+        </div>
+        <div class="header-content">
+            <div class="header-text">
+                <div class="greeting">Halo, Saya</div>
+                <h1 class="profile-title">
+                    <span class="title-main">Rafi Susilo</span>
+                    <span class="title-sub">Web Developer</span>
+                </h1>
+                <p class="class-info">XI RPL - Rekayasa Perangkat Lunak</p>
+                <p class="header-subtitle">Membuat pengalaman digital yang menarik dan fungsional dengan teknologi modern</p>
+                <div class="header-buttons">
+                    <a href="#services" class="btn btn-primary">
+                        <span>Lihat Layanan</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Hubungi Saya</span>
+                    </a>
+                    <a href="cv-raffi-susilo.pdf" download class="btn btn-outline">
+                        <span>Download CV</span>
+                        <i class="fas fa-download"></i>
+                    </a>
+                </div>
+                <div class="header-stats">
+                    <div class="stat">
+                        <div class="stat-number" data-count="12">0</div>
+                        <div class="stat-label">Projek Selesai</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number" data-count="2">0</div>
+                        <div class="stat-label">Tahun Pengalaman</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number" data-count="3">0</div>
+                        <div class="stat-label">Teknologi</div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-visual">
+                <div class="profile-hero">
+                    <div class="hero-image">
+                        <img src="edit.jpg" alt="Foto Profil Rafi Susilo" class="profile-image">
+                        <div class="image-glow"></div>
+                        <div class="floating-elements">
+                            <div class="floating-element element-1">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="floating-element element-2">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="floating-element element-3">
+                                <i class="fab fa-js"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tech-badges">
+                        <div class="tech-badge">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="tech-badge">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="tech-badge">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-text">Scroll untuk menjelajahi</div>
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Tentang Saya</h2>
+                    <p class="section-subtitle">Mengenal lebih dekat passion dan perjalanan saya dalam dunia teknologi</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <div class="about-intro">
+                            <h3>Passion dalam Kode & Desain</h3>
+                            <p>Saya adalah siswa kelas XI RPL yang memiliki ketertarikan mendalam dalam pengembangan web dan desain antarmuka. Sejak mengenal pemrograman, saya terus mengasah kemampuan untuk menciptakan solusi digital yang tidak hanya fungsional tetapi juga menyenangkan secara visual.</p>
+                        </div>
+                        <div class="about-details">
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <h4>Pendidikan</h4>
+                                    <p>SMK Sahida L.A - Rekayasa Perangkat Lunak</p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <h4>Lokasi</h4>
+                                    <p>Cirebon, Indonesia</p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <i class="fas fa-heart"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <h4>Minat</h4>
+                                    <p>Web Development, UI/UX Design, Teknologi Terkini</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-skills">
+                        <h3>Kemampuan Teknis</h3>
+                        <div class="skills-mini">
+                            <div class="skill-tag">HTML5 & CSS3</div>
+                            <div class="skill-tag">JavaScript</div>
+                            <div class="skill-tag">UI/UX Design</div>
+                            <div class="skill-tag">Responsive Design</div>
+                            <div class="skill-tag">Git & GitHub</div>
+                            <div class="skill-tag">Problem Solving</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills-section" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Keahlian Teknis</h2>
+                    <p class="section-subtitle">Teknologi dan tools yang saya kuasai untuk menciptakan solusi digital</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3 class="category-title">Frontend Development</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <div class="skill-info">
+                                        <i class="fab fa-html5"></i>
+                                        <span class="skill-name">HTML5</span>
+                                    </div>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <div class="skill-info">
+                                        <i class="fab fa-css3-alt"></i>
+                                        <span class="skill-name">CSS3</span>
+                                    </div>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <div class="skill-info">
+                                        <i class="fab fa-js"></i>
+                                        <span class="skill-name">JavaScript</span>
+                                    </div>
+                                    <span class="skill-percent">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3 class="category-title">Design & Tools</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <div class="skill-info">
+                                        <i class="fas fa-palette"></i>
+                                        <span class="skill-name">UI/UX Design</span>
+                                    </div>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <div class="skill-info">
+                                        <i class="fas fa-mobile-alt"></i>
+                                        <span class="skill-name">Responsive Design</span>
+                                    </div>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <div class="skill-info">
+                                        <i class="fab fa-git-alt"></i>
+                                        <span class="skill-name">Git & GitHub</span>
+                                    </div>
+                                    <span class="skill-percent">70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="70"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services-section" id="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Layanan Saya</h2>
+                    <p class="section-subtitle">Solusi digital yang saya tawarkan untuk kebutuhan Anda</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="service-title">Web Development</h3>
+                        <p class="service-description">Membangun website responsif dan interaktif dengan teknologi terkini untuk pengalaman pengguna yang optimal.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Website Responsif</li>
+                            <li><i class="fas fa-check"></i> Optimasi SEO</li>
+                            <li><i class="fas fa-check"></i> Performa Tinggi</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3 class="service-title">UI/UX Design</h3>
+                        <p class="service-description">Mendesain antarmuka yang intuitif dan menarik dengan fokus pada pengalaman pengguna yang optimal.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Desain Modern</li>
+                            <li><i class="fas fa-check"></i> User-Centered</li>
+                            <li><i class="fas fa-check"></i> Prototyping</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 class="service-title">Responsive Design</h3>
+                        <p class="service-description">Memastikan website tampil sempurna di semua perangkat, dari desktop hingga smartphone.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Mobile-First</li>
+                            <li><i class="fas fa-check"></i> Cross-Browser</li>
+                            <li><i class="fas fa-check"></i> Adaptive Layout</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Mari Berkolaborasi</h2>
+                    <p class="section-subtitle">Saya terbuka untuk peluang baru dan diskusi menarik</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Hubungi Saya</h3>
+                        <p>Silakan hubungi saya melalui salah satu cara di bawah ini:</p>
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="method-details">
+                                    <h4>Email</h4>
+                                    <a href="mailto:rafisysilo@gmail.com">rafisysilo@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="method-details">
+                                    <h4>Telepon/WhatsApp</h4>
+                                    <a href="https://wa.me/6289634594400">0896 3459 4400</a>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="method-details">
+                                    <h4>Lokasi</h4>
+                                    <span>Cirebon, Indonesia</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://www.instagram.com/afii_2004?igsh=Zm16ZG1jb3IwbXl3" class="social-link" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://github.com/Lynzx2004/Lynzx2004.github.io" class="social-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://x.com/Raffzx25?t=jQAfKzgV9hZ0rYD9tUf2-Q&s=09" class="social-link" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <h3>Kirim Pesan</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Nama Lengkap</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subjek</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Pesan</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                <span>Kirim Pesan</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <div class="footer-about">
+                        <div class="footer-logo">
+                            <div class="logo-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <span class="logo-name">Rafi Susilo</span>
+                        </div>
+                        <p>Seorang siswa RPL yang bersemangat dalam menciptakan solusi digital yang inovatif dan menarik.</p>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Tautan Cepat</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">Tentang</a></li>
+                            <li><a href="#skills">Keahlian</a></li>
+                            <li><a href="#services">Layanan</a></li>
+                            <li><a href="#contact">Kontak</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact">
+                        <h4>Kontak</h4>
+                        <div class="contact-mini">
+                            <p><i class="fas fa-envelope"></i> rafisysilo@gmail.com</p>
+                            <p><i class="fas fa-phone"></i> 0896 3459 4400</p>
+                            <p><i class="fas fa-map-marker-alt"></i> Cirebon, Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Rafi Susilo - XI RPL. All rights reserved.</p>
+                    <p>Dibuat dengan <i class="fas fa-heart"></i> menggunakan HTML, CSS & JavaScript</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
